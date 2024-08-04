@@ -1,0 +1,86 @@
+.Box{
+  width: 360px;
+  background-color: #0B2434;
+height: 379px;
+top: 69px;
+left: 76px;
+padding: 30px 20px 29px 20px;
+gap: 0px;
+opacity: 0px;
+margin: auto;
+
+}
+.Board{
+  background-color: #F5F5F5;
+  height: 320px;
+  width: 320px;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+.Title{
+  color: #2B283A ;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  padding: 0px 29px;
+  
+}
+.Game{
+  height: 253px;
+  width: 250px;
+  padding: 34px 35px;
+  
+}
+.Text{
+  color: #4A4E74;
+  width: 233px;
+ 
+  font-family: "inter",sans-serif;
+  padding:  0px 11px;
+}
+.die{
+  height: 36px;
+  width: 36px;
+  border-radius:4px ;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button{
+  background-color: #5035FF;
+  color: #ffffff;
+  border-radius: 2px;
+  margin-top: 10px;
+ border: none;
+ cursor: pointer;
+ height: 50px;
+    width: 100px;
+ font-size: 1.2rem;
+  
+}
+.button:focus{
+  outline: none;
+}
+.button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.container{
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto  auto  auto  auto;
+  gap: 5px;
+} 
+.number{
+  color: #2B283A;
+  font-family: "karla",sans-serif;
+  font-weight: bold;
+  font-size: 13;
+}
+  
+  
+
+
+
